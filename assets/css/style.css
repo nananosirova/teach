@@ -1,0 +1,117 @@
+h3 {
+    color: #ffa532;
+}
+
+.page-wrap {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+
+/*-------------- Header ---------------*/
+
+header img {
+    margin-bottom: 6px;
+    width: 40%;
+}
+
+header .tools {
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+}
+
+header .tools button.login {
+    margin-bottom: 5px;
+}
+
+header .tools .input-group {
+    margin-bottom: 5px;
+}
+
+/*-------------- Navbar ---------------*/
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 2px;
+    background-color: #FFA526;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #e98800;
+}
+
+.nav .active a {
+    background-color: #e98800;
+}
+
+/*-------------- Top Pictures ---------------*/
+
+.pictures img {
+    padding-right: 0;
+    padding-top: 0;
+    padding-left: 2px;
+}
+
+
+/*-------------- Home Content ---------------*/
+
+
+/*-------------- Footer ---------------*/
+
+footer {
+    margin-top: 20px !important;
+}
+
+footer .copy-text{
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .page-wrap {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .page-wrap {
+        width: 58.33%;
+        margin-left: 20.835%;
+    }
+}
+
+
