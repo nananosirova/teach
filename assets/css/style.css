@@ -115,3 +115,32 @@ footer .copy-text{
 }
 
 
+
+
+ul.faq-list {
+    padding-left:0px;
+}
+
+ul.faq-list > li {
+    list-style: none;
+    margin-left:0px;
+    padding-left:0px;
+    font-size:17px;
+    letter-spacing: 0.3px;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    border-bottom:1px solid #DADFE1;
+    width:85%;
+}
+
+ul.faq-list > li > a > i.fa.fa-chevron-down {
+    float:right;
+}
+
+div.faq-section {
+    display:none;
+    margin:0px;
+    font-size:85%;
+    padding-top:10px;
+
+}
