@@ -58,10 +58,10 @@
     <!-- Navbar -->
     <div class="nav">
         <ul id="tabs">
-            <li class="col-2 active"><a data-toggle="tab" href="#home">Home</a></li>
+            <li class="col-2"><a data-toggle="tab" href="#home">Home</a></li>
             <li class="col-2"><a data-toggle="tab" href="#using-labs">Using Labs</a></li>
             <li class="col-2"><a data-toggle="tab" href="#resources">Resources</a></li>
-            <li class="col-2"><a data-toggle="tab" href="#faq">FAQs</a></li>
+            <li class="col-2 active"><a data-toggle="tab" href="#faq">FAQs</a></li>
             <li class="col-2"><a data-toggle="tab" href="#staff">Staff</a></li>
             <li class="col-2"><a data-toggle="tab" href="#contact">Contact</a></li>
         </ul>
@@ -76,7 +76,7 @@
     <div class="tab-content">
 
         <!-- Home Content -->
-        <div id="home" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade">
             <div class="col-lg-4">
                 <h3>Announcements</h3>
                 <p>Teachings Labs will be closed Tuesday Dec 20 2pm - Wednesday Jan 4 2pm</p>
@@ -153,9 +153,125 @@
         </div>
 
         <!-- FAQs Content -->
-        <div id="faq" class="tab-pane fade">
+        <div id="faq" class="tab-pane fade in active">
             <div class="col-lg-12">
-                <h3>FAQs Content - add here</h3>
+                <h3>FAQs</h3>
+                <h4>Answers to your most commonly asked questions</h4>
+                <p>
+                    This frequently-asked-questions file contains a list of frequently asked questions and their frequently given answers. The purpose of such a frequently-asked-questions file is to save you time, and to provide answers to such questions 24/7. We recommend you read this file. Frequently. :-)
+                </p>
+                <ul class="faq-list">
+                    <li>Getting Started<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="getting-started"></i></a>
+                        <div id="getting-started" class="faq-section"> 
+                             <b>Q<a name="GS0"></a>: What are the Computer Science Teaching Labs?</b>
+                             
+                             <p><b>A</b>: These are a set of computer labs and computing environments provided
+                             by the Department of Computer Science to support Computer Science courses. The primary environment is Ubuntu Linux.  
+                             </p><hr />
+                             
+                             <b>Q<a name="GS1"></a>: Where are the labs located?</b>
+                             
+                             <p><b>A</b>: The labs are located in:
+                             </p>
+                             <p>
+                            <ul>
+                                <b>Bahen Centre for Information Technology (<a href="http://maps.google.ca/maps?q=40+St+George+St,+Toronto,+ON&spn=0.011488,0.024788&iwloc=A&hl=en">40 St George St</a>).</b>
+                            <br/>
+                            The labs are located in the following Bahen rooms:<br/>
+
+                             BA2200, BA2210, BA2220, BA2230, BA2240, BA2270, BA3175, BA3185, BA3195, BA3200, BA3219.
+                                    </ul>
+                             
+                             For more info about the labs and lab access, see <a href="#ABOUT%20THE%20LABS"> About the Labs</a>.
+                             
+                             </p><hr />
+                             
+                             <b>Q<a name="GS2"></a>: What do I need to know to start using my Teaching Labs account?</b>
+                             
+                             <p><b>A</b>: To get yourself started we recommend that you read the 
+                             <a href="resources/intro_for_new_students.html">First Year or New User's Guide</a> and/or the 
+                             <a href="resources/general_student_guide_to_cdf.html"> Teaching Labs Users Guide</a>, which is oriented towards second year and higher students. 
+                             </p>
+                             
+                             <p>Your Teaching Labs username is your UTORid. You will be emailed an initial
+                            password which you will have to change on first use. Your password is unique to
+                            the teaching labs: you can set it to whatever you want (subject to password
+                            quality constraints), it does not have to be the same as your UTOR login.
+                            You can make it the same if you want, but it's safer to choose a unique
+                            password.  If you forget it, you can reset your teaching lab password
+                            via <A HREF="http://www.teach.cs.toronto.edu">the Teaching Labs web page</A> under <A HREF="http://www.teach.cs.tronto.edu/resources/cdf_account_management.html">Resources: Account Management</A>.
+                             
+                             </p><hr />
+                             
+                             <b>Q<a name="GS3"></a>: If I'm at home, how do I log in to the Teaching Lab machines?</b>
+                             
+                             <p><b>A</b>: To log into the Teaching Lab machines from home, you must have internet access. 
+                             If you wish to connect and use the same environment as the Teaching Lab workstations, detailed information can be found on the
+                             <a href="using_cdf/remote_access_server.html">Connecting to Teaching Labs remote access server</a> page. 
+                             Internet access can be obtained from numerous commercial Internet Service 
+                             Providers (ISP), through a cable TV connection or your phone line, with a variety of
+                             fee structures. 
+                             If you wish to connect using the secure shell protocal (SSH), you need to download and install an SSH client for windows. A list of "free" windows clients are available on the 
+                             <a href="/using_cdf/ssh.html">OpenSSH website.</a> With your ssh client, connect to "teach.cs.toronto.edu". 
+                            For unix, linux or Mac OS X computers, use a terminal window and type the following
+                            (substitue your UTORid for user-name): ssh user-name@teach.cs.toronto.edu
+                             
+                             </p>
+                             <hr />
+                             
+                             <b>Q<a name="GS5"></a>: How do I report problems?</b>
+                             
+                             <p><b>A</b>: Send mail to <a href="mailto:admin@teach.cs.toronto.edu">admin</a>.
+                             Mail to <a href="mailto:admin@teach.cs.toronto.edu">admin</a>
+                             will be seen by the system administrators. See the 
+                             <a href="resources/general_student_guide_to_cdf.html">Student's Guide to the Teaching Labs</a> 
+                             for details on how to send mail.
+                             
+                             
+                             </p><hr />
+                             
+                             <b>Q<a name="GS6"></a>: What do I do if I'm having problems with my assignment?</b>
+                             
+                             <p><b>A</b>: Contact your TA or your course instructor. Do not contact
+                             the site administrators. Even if they could help you, they're not allowed
+                             to.
+                             
+                             </p><hr />
+                             
+                             <b>Q<a name="GS8"></a>: How can I save or reserve a workstation?
+                             Can I leave for a while without logging out and losing the workstation
+                             I'm using?</b>
+                             
+                             <p><b>A</b>: Workstations are allocated on a first-come, first-serve basis.
+                             If you wish to leave for a short period of time without logging out, you can lock
+                             it using <code>xlock</code>, which will prevent anyone from meddling with it while you're
+                             gone. 
+                             <p>If you remain away from your workstation too long, you will be
+                             automatically logged out. If there is no mouse movement or keyboard activity
+                             for 20 minutes, you will be given a warning. (The warning may be hidden 
+                             by other windows). You will be logged off if there is no activity for 30 minutes. 
+                             </p>  
+                             
+                             
+                             <hr />
+                             
+                             <b>Q<a name="GS9"></a>: The answers in this FAQ appear to be out of date or just plain wrong! How come?</b>
+                             
+                             <p><b>A</b>: The FAQ is regularly updated but things sometimes do get missed. We are always open to
+                             suggestions about missing questions and answers. Please let <a href="mailto:admin@teach.cs">admin</a>
+                             know if you have any suggestions or if you find errors.</p>
+                        </div>
+                    </li>
+                    <li>About the Labs<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="about-the-labs"></i></a></li>
+                    <li>About the Computers<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="about-the-computers"></i></a></li>
+                    <li>How To<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="how-to"></i></a></li>
+                    <li>Accounts<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="accounts"></i></a></li>
+                    <li>Printing<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="printing"></i></a></li>
+                    <li>Print Quotas<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="print-quotas"></i></a></li>
+                    <li>Disk Quotas<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="disk-quotas"></i></a></li>
+                    <li>Mail<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="mail"></i></a></li>
+                    <li>Networks<a><i class="fa fa-chevron-down faq-expand" aria-hidden="true" faqSection="networks"></i></a></li>
+                </ul>
             </div>
         </div>
 
